@@ -97,6 +97,11 @@ article .section-title,
   border-top: 1px solid #444;
 }
 
+.logo1 {
+  top: 2.5em;
+  position: absolute;
+}
+
 .row-inversed a:hover {
   color: #F6F6E7 !important;
 }
