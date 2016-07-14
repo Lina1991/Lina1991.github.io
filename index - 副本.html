@@ -564,6 +564,54 @@
 
   </div>
 
+  <!-- 另一个复制来的 -->
+      <div class="row row-contact" id="contact_row" style="display: block">
+      <article>
+        <h2 class="section-title">联系方式</h2>
+
+        <p>This block can be hidden and only shown in <a href="#contacts" class="zoom-html">a popup</a>.</p>
+
+        <div class="wrap-contact-form">
+          <form id="contacts" class="contact-form" action="contacts.php" method="post">
+            <table class="info">
+              <tr>
+                <th><label for="contact_name">Name</label></th>
+                <td><input type="text" class="input-text" name="contact_name" id="contact_name" value=""></td>
+              </tr>
+              <!-- start spam protection -->
+              <tr class="spam-protection">
+                <th><label>E-mail</label></th>
+                <td><input type="text" name="email" value=""></td>
+              </tr>
+              <!-- end -->
+              <tr>
+                <th><label for="contact_email">E-mail</label></th>
+                <td><input type="text" class="input-text input-email" name="contact_email" id="contact_email"></td>
+              </tr>
+              <tr>
+                <th><label for="contact_message">Your Message</label></th>
+                <td><textarea id="contact_message" name="contact_message"></textarea></td>
+              </tr>
+              <tr>
+                <th></th>
+                <td>
+                  <input type="submit" class="input-submit" name="contact_send" value="Send">
+                  <div class="on-success">
+                    Thank You. The message was sent.
+                  </div>
+                  <div class="on-error">
+                    A technical error occured. Message was not delivered. Please contact me over e-mail.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </article>
+    </div>
+  
+  
+  
   <footer class="wrap-footer">
       <div class="fl">&copy; John Doe, 2012.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
       <div class="fr">
